@@ -72,12 +72,23 @@ header {
   width: 100%;
   height: 20rem;
 }
+
+
+#nimrodel-modal .carousel-item img {
+   height: 20rem;
+}
+.carousel-item img {
+  max-width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
 p {
-  text-align: center;
+  text-align: left;
   font-style: oblique;
-  color: rgb(53, 51, 51);
+  color: rgb(0, 0, 0);
   font-size: medium;
 }
+
 
 .carousel-item {
   height: 250px;

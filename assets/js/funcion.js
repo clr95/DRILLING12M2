@@ -33,4 +33,11 @@ function mostrarFormulario() {
   let cantidad = $("#CANTIDAD").val();
   alert(`Estimado: ${nombre2} agradecemos reservar con nosotros. Hemos registrado confirmación de tu reserva para ${cantidad}. Se ha enviado el código de confirmación al correo ${correo2}. Gracias por preferirnos`);
 }
+const carousel = document.getElementById("nimrodel-carousel");
+const nosotrosLink = document.getElementById("nosotros-link");
 
+$(document).ready(function() {
+  $('#show-carousel-link').click(function() {
+    $('#nimrodel-carousel').show();
+  });
+});
